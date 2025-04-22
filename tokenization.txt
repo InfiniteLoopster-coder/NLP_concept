@@ -1,0 +1,15 @@
+Tokennization 
+what it is :
+spliting raw text data in atomic("token") that downstream models can work with 
+
+Type of tokenization :
+1 Word‑level
+-Splits on whitespace and punctuation.
+-Easy, but large vocab and OOV issues.
+2 Subword‑level (BPE, WordPiece)
+-Learns frequent substrings.
+-Balances vocabulary size with OOV coverage.
+-Used in most modern LLMs.
+3 Character‑level
+-Every character is a token.
+-No OOV, but very long sequences
